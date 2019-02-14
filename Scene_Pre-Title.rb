@@ -10,7 +10,7 @@
 class Scene_Pre_Title < Scene_Base
 
   def initialize
-  Graphics.play_movie("Movies/Oz-Opening")
+    Graphics.play_movie("Movies/Oz-Opening")
   end
 
   def update
